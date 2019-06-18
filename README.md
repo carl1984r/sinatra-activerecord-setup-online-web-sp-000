@@ -65,7 +65,7 @@ way, they won't get installed on our server when we deploy our application.
   gem 'activerecord', '5.2'
   gem 'sinatra-activerecord'
   gem 'rake'
-
+#Stuff to install but not to be deployed.
   group :development do
     gem 'shotgun'
     gem 'pry'
